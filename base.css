@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+html{scroll-behavior: smooth;}
+
+*{
+    margin: 0;
+    font-family: sans-serif;
+    color: darkslategray;
+}
+header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 9999;
+    background-color: skyblue;
+    width: 100%;
+    height: 40px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    text-align: center;
+}
+nav ul li{
+    flex-grow: 1;
+    padding-top: 8px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: aliceblue;
+}
+.top{
+    padding-top: 40px;
+    font-size: 30px;
+    text-align: center;
+    color: darkslategray;
+}
+.logo{
+    padding-top: 40px;
+    text-align: center;
+}
+.me{
+    padding-top: 40px;
+}
+.me h3{
+    text-align: center;
+}
+.image-me{
+    width: 80vw;
+    position: relative;
+    display: block;
+    margin: auto;
+}
+.me p{
+    color: darkslategray;
+    font-weight: bold;
+    -webkit-text-stroke: 0.3px;
+    -webkit-text-stroke-color: aliceblue;
+    text-shadow: 2px 2px 3px aliceblue;
+    /*↓文字配置上手くいってない*/
+    position: absolute;
+    left: 200px;
+    top: 1300px;
+}
+.lecture{
+    padding-top: 40px;
+}
+.lecture p{
+    font-weight: bold;
+    text-align: center;
+}
+.detail1{
+    display: flex;
+    justify-content: center;
+}
+.schedule1{
+    display: table;
+    margin-right: 50px;
+}
+.schedule1 p{
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+}
+.detail2{
+    display: flex;
+    justify-content: center;
+}
+.schedule2{
+    display: table;
+    margin-right: 50px;
+}
+.schedule2 p{
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+}
+.celemony{
+    padding-top: 40px;
+}
+.ceremony p{
+    font-weight: bold;
+    text-align: center;
+}
+.detail3{
+    display: flex;
+    justify-content: center;
+}
+.image-ceremony{
+    width: auto;
+    height: 300px;
+}
+.schedule{
+    display: table;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.schedule p{
+    display: table-cell;
+    text-align: left;
+    vertical-align: middle;
+    line-height: 3;
+}
+.button{
+    text-align: center;
+}
+/*.present p{
+    color: darkslategray;
+    font-weight: bold;
+    text-align: center;
+}*/
+footer{
+    width: auto;
+    height: 40px;
+    background-color: skyblue;
+}
+footer p{
+    padding-top: 8px;
+    text-align: center;
+    font-weight: bold;
+    color: aliceblue;
+}
